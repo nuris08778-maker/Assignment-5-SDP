@@ -1,7 +1,6 @@
 # Assignment #5 - Strategy Pattern
 
 **Student:** Nursultan Nurislam, SE - 2538
-**Course:** ShP-2216 - Software Design Patterns (OP 6B06102)
 **Topic:** Option B - Calculator
 
 ## 1. Introduction
@@ -21,7 +20,8 @@ In my project:
 
 ## 2. UML Class Diagram
 
-![UML class diagram](uml.png)
+!<img width="3421" height="695" alt="uml" src="https://github.com/user-attachments/assets/1daf3054-e771-4d9b-a3c9-2093540cc715" />
+
 
 `Calculator` (the context) has a field of the type `OperationStrategy`, so it depends only on the interface. The five concrete strategies implement the interface. The client `Main` creates a strategy and passes it to the calculator, and `Calculator` does not know which concrete class it works with.
 
